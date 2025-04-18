@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+  <title>Dylan's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo-container">
+      <img src="dylan pic cv.jpg" alt="Dylan's Picture" class="profile-image" />
+      <div class="logo">Dylan T. Haokip</div>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+  </aside>
+
+  <main>
+    <section id="home" class="section fade-in">
+      <h1>Hello, I'm <span class="highlight">Dylan Tongoulen Haokip</span></h1>
+      <p>Web Developer | Problem Solver | Tech Enthusiast</p>
+    </section>
+
+    <section id="about" class="section fade-in">
+      <h2>About Me</h2>
+      <p>I’m a B.Tech CSE graduate with interests in web development, IoT, and ML. I love building projects and solving real-world problems.</p>
+    </section>
+
+    <section id="skills" class="section fade-in">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>React</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section fade-in">
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Smart IoT System</h3>
+        <p>IoT-based smart home automation with NodeMCU and sensors.</p>
+        <a href="#">View on GitHub</a>
+      </div>
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>My own portfolio using HTML, CSS, and subtle animations.</p>
+        <a href="#">View Code</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section fade-in">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:dylanhaokipofficial@gmail.com" target="_blank" rel="noopener noreferrer">dylanhaokipofficial@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/dylanhaokip" target="_blank" rel="noopener noreferrer">linkedin.com/in/dylanhaokip</a></p>
+        <p>GitHub: <a href="https://github.com/dylanhaokip" target="_blank" rel="noopener noreferrer">github.com/dylanhaokip</a></p>
+      </section>
+      
+
+    <footer>
+      <p>&copy; 2025 Dylan T. Haokip</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+    });
+  </script>
+</body>
+</html>
