@@ -1,0 +1,119 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 1rem;
+}
+
+/* Main Container */
+main {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+/* Heading */
+h1 {
+  color: #005a9c;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Paragraph */
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* List */
+ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}
+
+/* Back Link */
+a {
+  text-decoration: none;
+  color: #005a9c;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* GitHub Button */
+.github-button {
+  margin-top: 2rem;
+  text-align: left; /* Aligns the button to the left */
+}
+
+.github-button a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #24292e;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.github-button a:hover {
+  background-color: #0366d6; /* Highlight on hover */
+  box-shadow: 0 4px 12px rgba(3, 102, 214, 0.4); /* Soft glow */
+}
+
+/* Responsive adjustments for GitHub Button */
+@media (max-width: 480px) {
+  .github-button a {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p, li {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0.5rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+}
